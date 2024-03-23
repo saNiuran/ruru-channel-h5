@@ -1,0 +1,144 @@
+/* 选项卡 开始 */
+.tab-choose {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90rpx;
+    line-height: 80rpx;
+    font-size: 28rpx;
+    color: #000000;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f4f4f4;
+    z-index: 9;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.debug-tab-choose {
+    /* #ifdef H5*/
+    top: 80rpx;
+    /* #endif */
+    /* #ifdef MP-WEIXIN*/
+    top: 0;
+    /* #endif */
+}
+
+.tab-item-box {
+    width: 50%;
+    text-align: center;
+    height: 70rpx;
+
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-item-img {
+    width: 22rpx;
+    height: 11rpx;
+    margin-top: 4rpx;
+    padding: 0 10rpx;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.highlight {
+    color: #fc5300;
+}
+/* 选项卡 结束*/
+
+/* 菜单 开始*/
+
+.cover0 {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0rpx;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background: rgba(0, 0, 0, 0.1);*/
+    z-index: 8;
+}
+
+.cover1 {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0rpx;
+    left: calc(50%);
+    right: 0;
+    bottom: 0;
+    /*background: rgba(0, 0, 0, 0.1);*/
+    z-index: 8;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+.tab-list-sort {
+    font-size: 28rpx;
+    color: #333333;
+    background: #ffffff;
+    position: relative;
+    /*    #ifdef H5 */
+    top: 90rpx;
+    /*    #endif*/
+    /*    #ifndef H5 */
+    top: 0rpx;
+    /*    #endif*/
+    z-index: 10;
+    border-bottom: 1rpx solid #eeeeee;
+}
+
+.tab-text-sort {
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-top: 1rpx solid #eeeeee;
+}
+
+.industry-item-img {
+    width: 44rpx;
+    height: 44rpx;
+}
+
+.industry-item-img image {
+    display: block;
+    width: 44rpx;
+    height: 44rpx;
+}
+
+.industry-item-text {
+    height: 30rpx;
+    line-height: 30rpx;
+    font-size: 26rpx;
+    margin-top: 20rpx;
+}
+
+.industry-selected {
+    color: #ff5100;
+    border: 1rpx solid #ff5100;
+}
+
+.other-selected {
+    color: #ff5100;
+    font-weight: 300%;
+}
+/* 菜单 结束*/

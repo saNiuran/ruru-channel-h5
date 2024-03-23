@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1435",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "f01fa",
+      "unicode_decimal": 983546
+    },
+    {
+      "icon_id": "4425830",
+      "name": "下拉",
+      "font_class": "xiala1",
+      "unicode": "e798",
+      "unicode_decimal": 59288
+    },
+    {
+      "icon_id": "9512529",
+      "name": "叉",
+      "font_class": "cross-fill",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}

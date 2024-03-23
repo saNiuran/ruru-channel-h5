@@ -1,0 +1,106 @@
+{
+    "pages": [
+        {
+            "path": "pages/login/login"
+        },
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "如如原料"
+            }
+        },
+        {
+            "path": "pages/wxCode/index"
+        },
+        {
+            "path": "pages/me/tool/client_document",
+            "style": {
+                "navigationBarTitleText": "客户报备"
+            }
+        },
+        {
+            "path": "pages/me/tool/client_activity",
+            "style": {
+                "navigationBarTitleText": "客户清单",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/me/tool/activity-log-list",
+            "style": {
+                "navigationBarTitleText": "日志",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/me/finance/balance-log-list",
+            "style": {
+                "navigationBarTitleText": "收入记录",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/me/finance/withdraw-list",
+            "style": {
+                "navigationBarTitleText": "余额提现",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/me/finance/withdraw",
+            "style": {
+                "navigationBarTitleText": "提现申请"
+            }
+        },
+        {
+            "path": "pages/me/qr/qr-mini",
+            "style": {
+                "navigationBarTitleText": "小程序码"
+            }
+        },
+        {
+            "path": "pages/me/dev/scan-log",
+            "style": {
+                "navigationBarTitleText": "有效扫码",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/me/dev/user-dev",
+            "style": {
+                "navigationBarTitleText": "扫码转换",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/me/dev/user-list",
+            "style": {
+                "navigationBarTitleText": "真实用户",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/me/dev/user-detail",
+            "style": {
+                "navigationBarTitleText": "用户详情"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationStyle": "custom",
+        "transparentTitle": "none",
+        "pageOrientation": "portrait",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "如如原料",
+        "navigationBarBackgroundColor": "#13ad65",
+        "backgroundColor": "#F2F2F2",
+        "backgroundColorTop": "#F4F5F6",
+        "backgroundColorBottom": "#F4F5F6"
+    },
+    "condition": {
+        //模式配置，仅开发期间生效
+        "current": 0,
+        //当前激活的模式（list 的索引项）
+        "list": []
+    }
+}
